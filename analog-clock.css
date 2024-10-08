@@ -72,13 +72,13 @@ body {
 }
 
 .minute {
-  height: 80%;
+  height: 75%;
   width: 8px;
   background-color: var(--hand-clr);
 }
 
 .second {
-  height: 95%;
+  height: 85%;
   width: 2px;
   background-color: var(--border-clr);
 }
@@ -120,11 +120,16 @@ section {
 span {
   display: inline-block;
 
-  height: 12px;
-  width: 12px;
+  height: 3px;
+  width: 3px;
 
   border-radius: 50%;
   background-color: #bcafc4;
+}
+
+.hour-mark > span {
+  width: 6px;
+  height: 6px;
 }
 
 /* .number-mark span {

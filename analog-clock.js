@@ -7,7 +7,7 @@ const digitalTime = document.querySelector(".digital-time");
 const sections = document.getElementsByTagName("section");
 
 for (let i = 0; i < sections.length; i++) {
-  sections[i].style.rotate = `${30 * i}deg`;
+  sections[i].style.rotate = `${6 * i}deg`;
 }
 
 // Clock Running!
